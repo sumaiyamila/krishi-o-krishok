@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="foshol.company.com.foshol.PatMojaik"
+    android:background="#489bb280"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="3">
+
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="সংক্রমণ:\nমোজাইক আক্রান্ত পাট গাছের সংগৃহীত বীজ বপনের ফলে এ রোগ হয়ে থাকে। গাছ বড় হওয়ার সাথে সাথে পাতায় হলদে সবুজ ছিট দাগ পড়ে, আক্রান্ত গাছের বাড় কমে যায় এবং আঁশের পরিমাণ শতকরা ৫০% পর্যমত্ম কমে যাওয়ার আশংকা থাকে। মোজাইক আক্রান্ত পাট গাছের সংগৃহীত বীজ বপনের ফলে এ রোগ হয়ে থাকে। পরাগায়ণের মাধ্যমে এবং হোয়াইট ফ্লাই (সাদা মাছি) নামক এক প্রকার ক্ষুদ্র মাছি দ্বারা এ রোগ বিস্তার লাভ করে। সাদা মাছি আক্রান্ত গাছের রস খেয়ে সুস্থ গাছের পাতার রস খাওয়ার সময় এ জীবাণু সুস্থ গাছে সংক্রমিত হয়।"
+                android:textSize="17sp"
+                android:layout_margin="10dp"
+                android:padding="10dp"
+                />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:layout_weight="0.02"
+                app:srcCompat="@drawable/jutemosaic" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="17sp"
+                android:layout_margin="10dp"
+                android:padding="10dp"
+                android:text="প্রতিকার:\nপ্রতিরোধ ব্যবস্থা হিসাবে নীরোগ গাছ থেকে বীজ সংগ্রহ করা উচিত। জমিতে আক্রান্ত চারা দেখা মাত্র তা তুলে ফেলতে হবে। কোন ক্রমেই হলদে সবুজ ছিট পড়া আক্রান্ত গাছ জমিতে রাখা যাবে না। সুস্থ গাছের জন্য মাঝে মাঝে পাট ক্ষেতে ডায়াজিনন বা হেমিথ্রিন প্রতি ১০ লিটার পানিতে ১৫ মিলি পরিমাণ ঔষধ মিশ্রণ তৈরী করে ৩০-৪০ দিন বয়সের গাছে ৭ দিন পর পর ২-৩ বার ছিটানো উচিত। পাট গাছের মাঝামাঝি বয়সের বাড়ন্তকালে যদি এ রোগ ব্যাপকভাবে দেখা দেয় তা হলে ঐ ক্ষেতের পাট গাছ থেকে আঁশ সংগ্রহ করা চলতে পারে। কিন্তু বীজ সংগ্রহ করা একেবারেই নিষিদ্ধ। আক্রান্ত গাছের বীজ সংগ্রহ করে বপন করলে পরবর্তী বছর ব্যাপকভাবে এ রোগ দেখা দেবে।"
+                />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+</RelativeLayout>

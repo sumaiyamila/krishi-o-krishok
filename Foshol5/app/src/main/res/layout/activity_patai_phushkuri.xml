@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="foshol.company.com.foshol.PataiPhushkuri"
+    android:background="#489bb280"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="3">
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="লক্ষণ:\n১. এ পোকা গমের কুশি/মাইজ কেটে দেয়।\n২. আক্রান্ত কুশি হলুদ হতে থাকে এবং এক সময় মারা যায়।"
+                android:textSize="17sp"
+                android:layout_margin="10dp"
+                android:padding="10dp"
+                />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:layout_weight="0.02"
+                app:srcCompat="@drawable/wheatmajrapoka" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="17sp"
+                android:layout_margin="10dp"
+                android:padding="10dp"
+                android:text="ব্যবস্থাপনা:\n১. আক্রান্ত কুশি সংগ্রহ করে ধ্বংস করা\n২. সেবিয়ন ৬০ ইসি ৩.৫ মি.লি./ লি. হারে পানিতে মিশিয়ে স্প্রে করা।\n৩. কার্বোফুরান ১০ কেজি / হে. হারে প্রয়োগ করা।"
+                />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</RelativeLayout>

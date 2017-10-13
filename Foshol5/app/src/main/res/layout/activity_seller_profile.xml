@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="foshol.company.com.foshol.SellerProfile"
+    android:orientation="vertical"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+       >
+
+        <TextView
+            android:id="@+id/textView50"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/common_google_signin_btn_text_dark_default"
+            android:text="বিক্রেতার প্রোফাইল"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimary"
+            android:textSize="30dp"
+            tools:layout_editor_absoluteX="150dp"
+            tools:layout_editor_absoluteY="112dp"
+            tools:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/textViewName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="50dp"
+            android:text="TextView"
+            android:textColor="@color/colorOliveGreen"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView52"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="70dp"
+            android:text="   " />
+
+        <TextView
+            android:id="@+id/textViewDistrict"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/button1"
+            android:layout_alignStart="@+id/button1"
+            android:layout_marginTop="110dp"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/textViewCity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textViewDistrict"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignStart="@+id/textViewDistrict"
+            android:layout_below="@+id/textViewDistrict"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/textViewShop"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:layout_below="@+id/textViewCity"
+            android:layout_alignLeft="@+id/textViewCity"
+            android:layout_alignStart="@+id/textViewCity"
+            android:layout_marginLeft="19dp"
+            android:layout_marginStart="19dp" />
+
+        <TextView
+            android:id="@+id/textViewKey"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textViewShop"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignStart="@+id/textViewShop"
+            android:layout_below="@+id/textViewShop"
+            android:textSize="20dp"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/textViewMsg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="আপনার পণ্যের নাম এবং দাম"
+            android:textColor="#0000FF"
+            android:layout_below="@+id/button1"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:id="@+id/textViewMsg2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textViewMsg"
+            android:layout_centerHorizontal="true"
+            android:text="(পরিবর্তন বা মুছে ফেলতে আইটেমের উপর ক্লিক করুন)"
+            android:textColor="@color/common_google_signin_btn_text_light_focused" />
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textViewKey"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="23dp"
+            android:text="নতুন পণ্য যোগ করুন" />
+
+
+        <ListView
+            android:id="@+id/ListViewGoods"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textViewMsg"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="20dp"
+            android:layout_weight="8.30"
+            android:layout_alignParentBottom="true" />
+       </RelativeLayout>
+
+
+
+
+    <TextView
+        android:id="@+id/tvJela"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="26dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="109dp"
+        android:text="জেলা: "
+        android:textColor="?android:attr/colorForeground"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvShohor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tvJela"
+        android:layout_alignStart="@+id/tvJela"
+        android:layout_below="@+id/tvJela"
+        android:text="শহর: "
+        android:textStyle="bold"
+        android:textColor="?android:attr/colorForeground"/>
+
+    <TextView
+        android:id="@+id/tvShop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tvShohor"
+        android:layout_alignStart="@+id/tvShohor"
+        android:layout_below="@+id/tvShohor"
+        android:text="বাজারের নাম: "
+        android:textSize="14dp"
+        android:textStyle="bold"
+        android:textColor="?android:attr/colorForeground"/>
+
+
+</RelativeLayout>

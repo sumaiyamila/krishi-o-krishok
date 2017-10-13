@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="foshol.company.com.foshol.BadhakopiLif">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="          বাঁধাকপি পাতার লিফ রোগ"
+            android:textAlignment="center"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:textColor="#9ACD32"/>
+
+        <ImageButton
+            android:id="@+id/btn2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/badhakopilif" />
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="লিফ স্পট এর লিফ লক্ষণ লক্ষণ ছোট আকারের, বৃত্তের ঊর্ধ্ব পৃষ্ঠায় গোলাকার-কিছুটা-অনিয়মিত দাগ হিসাবে শুরু হয় এই গাঢ়, জলে-জমে থাকা স্পটগুলি লাল বা গাঢ় লালচে-বাদামী মার্জিন দ্বারা ঘিরে গাঢ় বাদামী কেন্দ্রে আঘাত পেয়েছে ক্ষতিকারক বয়স হিসাবে, কেন্দ্রটি হালকা বাদামি হয়ে ধূসর হয়ে যায় এবং সীমানা অন্ধকার হয়ে যায় পাতার ক্ষত পাতার উপর বড় অনিয়মিত স্থান তৈরি করতে পারে ব্যাপকভাবে অসুস্থ পাতার অকালমৃত্যু ছেড়ে দিতে পারে, অথবা মৃত টিস্যু দূরবর্তী হতে পারে, ফাঁসানো ছাপার ছাপ রেখে"/>
+    </LinearLayout>
+
+</ScrollView>

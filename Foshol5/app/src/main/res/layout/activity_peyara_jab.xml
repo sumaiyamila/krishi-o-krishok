@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="foshol.company.com.foshol.PeyaraJab">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="          পেয়ারার জাব পোকা"
+            android:textAlignment="center"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:textColor="#9ACD32"/>
+
+        <ImageButton
+            android:id="@+id/btn2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/peyarajab" />
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="এ পোকা গাছের পাতা ও আগার রস খেয়ে ফেলে এবং এক ধরনের মিষ্টি রস নিঃসরণ করে।এর আক্রমণ বেশি হলে শুটি মোল্ড ছত্রাকের আক্রমণ ঘটে এবং পাতায় কালো আবরণ দেখা যায় ।
+
+এর প্রতিকার হল:
+
+১. অল্প আক্রমণের ক্ষেত্রে হাত দিয়ে পিশে পোকা মেরে ফেলা
+২. আক্রান্ত পাতা ও ডাল অপসারণ করা।
+৩. পরভোজী পোকা যেমন : লেডিবার্ডবিটল লালন।
+৪. ডিটারজেন্ট পানিতে মিশিয়ে স্প্রে করা
+৫. প্রতি গাছে ৫০ টির বেশি পোকার আক্রমণ হলে ইমিডাক্লোপ্রিড গ্রুপের কীটনাশক যেমন: এডমেয়ার ০.৫ মি.লি. / লি. হারে পানিতে মিশিয়ে শেষ বিকেলে স্প্রে করা।৫. প্রতি গাছে ৫০ টির বেশি পোকার আক্রমণ হলে এডমেয়ার ০.৫ মি.লি. / লি. হারে পানিতে মিশিয়ে শেষ বিকেলে স্প্রে করা।"/>
+    </LinearLayout>
+
+</ScrollView>

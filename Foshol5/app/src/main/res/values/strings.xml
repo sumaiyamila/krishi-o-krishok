@@ -1,0 +1,91 @@
+<resources>
+    <string name="app_name">Foshol</string>
+
+    <string-array name="Status">
+        <item>কৃষক</item>
+        <item>বিক্রেতা</item>
+        <item>অধিদপ্তর অফিসার</item>
+    </string-array>
+
+    <string-array name="District">
+        <item>বাগেরহাট</item>
+        <item>বান্দরবান</item>
+        <item>বরগুনা</item>
+        <item>বরিশাল</item>
+        <item>ভোলা</item>
+        <item>বগুড়া</item>
+        <item>ব্রাহ্মণবাড়িয়া</item>
+        <item>চাদপুর</item>
+        <item>চট্টগ্রাম</item>
+        <item>চুয়াডাঙ্গা</item>
+        <item>কুমিল্লা</item>
+        <item>কক্সবাজার</item>
+        <item>ঢাকা</item>
+
+        <item>দিনাজপুর</item>
+        <item>ফরিদপুর</item>
+        <item>ফেনি</item>
+        <item>গাইবান্ধা</item>
+        <item>গাজিপুর</item>
+        <item>গোপালগঞ্জ</item>
+        <item>হবিগঞ্জ </item>
+
+        <item>জয়পুরহাট</item>
+        <item>জামালপুর</item>
+        <item>যশোর</item>
+        <item>ঝালকাঠি</item>
+        <item>ঝিনাইদহ</item>
+        <item>খাগড়াছড়ি</item>
+        <item>খুলনা</item>
+        <item>কিশোরগঞ্জ </item>
+        <item>কুড়িগ্রাম</item>
+        <item>কুষ্টিয়া</item>
+        <item>লক্ষিপুর</item>
+        <item>লালমনিরহাট</item>
+        <item>মাদারিপুর</item>
+        <item>মাগুরা</item>
+        <item>মানিকগঞ্জ</item>
+        <item>মেহেরপুর </item>
+        <item>মৌলভীবাজার</item>
+        <item>মুন্সিগঞ্জ</item>
+        <item>ময়মনসিংহ</item>
+        <item>নওগাঁ</item>
+        <item>নড়াইল </item>
+        <item>নারায়ণগঞ্জ</item>
+        <item>নরসিংদি</item>
+        <item>নাটোর</item>
+        <item>নওয়াবগঞ্জ</item>
+        <item>নেত্রকোনা</item>
+        <item>নীলফামারী</item>
+        <item>নোয়াখালি</item>
+        <item>পাবনা </item>
+        <item>পঞ্চগড়</item>
+        <item>পার্বত্য চট্টগ্রাম</item>
+        <item>পটুয়াখালী</item>
+        <item>পিরোজপুর</item>
+        <item>রাজবাড়ি </item>
+        <item>রাজশাহী</item>
+        <item>রংপুর</item>
+        <item>সাতক্ষীরা</item>
+        <item>শরীয়তপুর</item>
+        <item>শেরপুর </item>
+        <item>সিরাজগঞ্জ</item>
+        <item>সুনামগঞ্জ</item>
+        <item>সিলেট</item>
+        <item>টাঙ্গাইল</item>
+        <item>ঠাকুরগাঁও </item>
+
+    </string-array>
+
+    <string-array name="Goods">
+        <item>ধান বীজ</item>
+        <item>গম বীজ</item>
+        <item>ভুট্টা বীজ</item>
+        <item>সরিষা বীজ</item>
+        <item>ফুলকপি বীজ</item>
+        <item>বাধাকপি বীজ</item>
+        <item>গাজর বীজ</item>
+        <item>মুলা বীজ</item>
+        <item>শসা বীজ</item>
+    </string-array>
+</resources>

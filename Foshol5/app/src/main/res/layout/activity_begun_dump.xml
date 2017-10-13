@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="foshol.company.com.foshol.BegunDump">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="          বেগুনের ডাম্প রোগ"
+            android:textAlignment="center"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:textColor="#9ACD32"/>
+
+        <ImageButton
+            android:id="@+id/btn2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/begundamping" />
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="ডাম্পিং অফ (পাইথিয়াম এসপিপি।, ফিজোথথোথার স্পপ।, রিইজোস্কোনিয়া স্পপ।, এসকরটোটিয়াম এসপিপি। এবং স্লেয়ারোটিনিয়া এসপিপি।) লক্ষণ: এটি বেগুনের বীজের একটি গুরুতর রোগ এবং প্রধানত নার্সারি বিছানায় ঘটে থাকে। রোগ সংক্রমিত বীজতলা ভূমি স্তর উপর রোপণ এবং তারপর গাছপালা স্থল উপর পড়ে। রোপন প্যাচ মধ্যে মরে। উভয় প্রাক উদযাপন এবং পোস্ট আপগ্রেড damping- বন্ধ উপসর্গ রোগী অবস্থায় দেখা যায়। প্রারম্ভিক পর্যায়ে ফিংড়ি দ্বারা অঙ্কিত বীজ সংক্রমিত হয়। সংক্রমণ পরবর্তীতে হিপোকটলেস বেস্যাল স্টেমে ছড়িয়ে পড়ে এবং শিকড়গুলির উন্নয়ন ঘটায়। গর্ত স্তরের কলামের যুবতী, কিশোর টিস্যু সংক্রমণ দ্বারা চিহ্নিতকরণের পরবর্তী ধাপে ধাপে ধাপটি চিহ্নিত করা হয়। ক্ষতিগ্রস্ত বীজগুলি হল ফ্যাকাশে সবুজ এবং কাঁকড়া জমিতে কোলার অঞ্চলে পাওয়া যায়, এর ফলে বোতলজাতকরণের ফলে এবং বীজতলা থেকে বপন করা হয়।"/>
+    </LinearLayout>
+
+</ScrollView>

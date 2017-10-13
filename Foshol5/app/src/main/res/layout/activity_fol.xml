@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="foshol.company.com.foshol.Page2"
+    android:background="@drawable/grass_light_background_87014_300x188"
+    android:orientation="vertical"
+    android:gravity="center"
+
+    >
+
+
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="310dp"
+        android:layout_height="wrap_content"
+        android:background="#32FFFFFF"
+        android:text="আম"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="30dp"/>
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="310dp"
+        android:layout_height="wrap_content"
+        android:background="#32FFFFFF"
+        android:text="কাঁঠাল"
+
+        android:layout_marginTop="17dp"
+        android:layout_below="@+id/btn3"
+        android:layout_alignLeft="@+id/btn4"
+        android:layout_alignStart="@+id/btn4" />
+
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="310dp"
+        android:layout_height="wrap_content"
+        android:background="#32FFFFFF"
+        android:text="লিচু"
+        android:layout_marginTop="36dp"
+        android:layout_below="@+id/btn1"
+        android:layout_alignLeft="@+id/btn1"
+        android:layout_alignStart="@+id/btn1" />
+
+    <Button
+        android:id="@+id/btn4"
+        android:layout_width="310dp"
+        android:layout_height="wrap_content"
+        android:background="#32FFFFFF"
+        android:text="পেয়ারা"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="240dp" />
+
+</RelativeLayout>

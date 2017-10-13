@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="foshol.company.com.foshol.VuttaMocha"
+    android:background="#489bb280"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="3">
+
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="সংক্রমণ:\n মোচা ও দানা পচা রোগ ভুট্টার ফলন, বীজের গুনাগুন ও খাদ্যমান কমিয়ে দেয়। বিভিন্ন প্রকার ছত্রাক যথা ডিপ্লোডিয়া মেডিস, ফিউজেরিয়াম মনিলিফরমি প্রভৃতি এ রোগ ঘটায়। আক্রান্ত মোচার খোসা ও দানা বিবর্ণ হয়ে যায়। দানা পুষ্ট হয় না, কুঁচকে অথবা ফেটে যায়। অনেক সময় মোচাতে বিভিন্ন দানার মাঝে বা উপরে ছত্রাকের উপস্থিতি খালি চোখেই দেখা যায়। ভুট্টা গাছে মোচা আসা থেকে পাকা পর্যন্ত বৃষ্টিপাত বেশী থাকলে এ রোগের আক্রমণ বাড়ে। পোকা বা পাখির আক্রমনে বা কান্ড পচা রোগে গাছ মাটিতে পড়ে গেলে এ রোগ ব্যাপকতা লাভ করে। এ রোগের জীবাণু বীজ অথবা আক্রান্ত গাছের পরিত্যক্ত অংশে বেঁচে থাকে। একই জমিতে বার বার ভুট্টার চাষ করলে এ রোগ দ্রুত বিস্তার লাভ করে।"
+                android:textSize="17sp"
+                android:layout_margin="10dp"
+                android:padding="10dp"
+                />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:layout_weight="0.02"
+                app:srcCompat="@drawable/vuttamocha" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="17sp"
+                android:layout_margin="10dp"
+                android:padding="10dp"
+                android:text="রোগ ব্যবস্থাপনা:\n১.  এ রোগের প্রাদুর্ভাব এড়াতে একই জমিতে বার বার ভুট্টা চাষ করা ঠিক নয়।
+২.  জমিতে পোকা ও পাখির আক্রমন রোধ করতে হবে।
+৩.  ভুট্টা পেকে গেলে তাড়াতাড়ি কেটে ফেলতে হবে।
+৪.  কাটার পর ভুট্টার পরিত্যক্ত অংশ পুড়িয়ে ফেলতে হবে।"
+                />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

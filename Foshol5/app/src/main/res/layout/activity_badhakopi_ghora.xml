@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="foshol.company.com.foshol.BadhakopiGhora">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="          বাধাকপির ঘোড়া পোকা রোগ"
+            android:textAlignment="center"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:textColor="#9ACD32"/>
+
+        <ImageButton
+            android:id="@+id/btn2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/badhakopighora" />
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="পূর্ণবয়স্ক ঘোড়াপোকার মথ দেখতে ধূসর-বাদামি রঙের। স্ত্রী মথ পোষক গাছের পাতায় একটি করে ডিম পাড়ে। ডিমের পৃষ্ঠদেশ মসৃণ, হালকা সবুজ রঙের এবং সামান্য চ্যাপ্টা। ৩ দিনের মধ্যে ডিম ফুটে কীড়া বের হয়। এরপর কীড়া নিজ দেহের চার দিকে মুখের লালা ব্যবহার করে কোকুন তৈরি করে। কোকুন থেকে ১৩ দিন পর পূর্ণবয়স্ক পোকা বা মথ বের হয়। কীড়া অবস্থা গাছের ক্ষতি করে। কীড়া আগার দিকের পাতা খেয়ে গাছকে প্রায় পাতাশূন্য করে ফেলে। বাঁধাকপি, ফুলকপি, ওলকপি ও ব্রকলি ছাড়াও এরা বিকল্প পোষক হিসেবে বীট, টমেটো, আলু, মটরশুঁটি, লেটুস, সয়াবিন, গো-মটর, চীনা বাদাম, পালংশাক, তুলা এবং কার্নেশন ও ন্যাসটারশিয়াম ফুলের গাছকে ব্যবহার করে এবং এদের পাতা খায়। পাতা দেখতে জালের মতো হয়ে যায়।"/>
+
+        <TextView
+            android:id="@+id/textView47"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="প্রতিকার" />
+
+        <TextView
+            android:id="@+id/textView48"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="১।ঘোড়াপোকা নিয়ন্ত্রণে নিয়মিত ক্ষেত পরিদর্শন করতে হয় এবং পোকার ডিম বা পোকা দেখা মাত্র হাত দিয়ে সংগ্রহ করে আক্রান্ত পাতাসহ নষ্ট করে ফেলতে হয়।
+২।আলোর ফাঁদ ব্যবহার করে মথ মেরে ফেলা যেতে পারে।
+৩।আক্রান্ত ক্ষেতে ব্যাসিলাস থুরিনজিয়েনসিস ব্যবহার করা যায় , এতে পোকা সাথে সাথে মরে না।
+৪।পোকার খাবার অরুচি সৃষ্টি করে পোকাকে দুর্বল করে মেরে ফেলে।
+৫।যখন প্রতি ১০টা গাছে একটা করে পোকা বা পোকার মথ দেখা যায় তখনই ফেনিট্রথিয়ন (সুমিথিয়ন ৫০ ইসি, ফলিথিয়ন ৫০ ইসি ইত্যাদি) অথবা সাইপারমেথ্রিন (রিপকর্ড ১০ ইসি, ম্যাজিক ১০ ইসি, বাসাথ্রিন ১০ ইসি ইত্যাদি) জাতীয় কীটনাশক ব্যবহার করতে হয়।" />
+    </LinearLayout>
+
+</ScrollView>

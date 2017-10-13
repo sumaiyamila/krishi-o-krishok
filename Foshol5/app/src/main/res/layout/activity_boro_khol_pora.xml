@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="foshol.company.com.foshol.BoroKholPora"
+    android:background="#489bb280"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="3">
+
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="আক্রমণের লক্ষণ:\nযদি চারার পাতায় পানিভেজা দাগ দেখা যায়, ভ্রূণকাণ্ড বাদামি হয়ে আসে ও পাতা হলুদ হতে শুরু করে তাহলে বুঝতে হবে চারাগুলো ব্যাকটেরিয়া জীবাণুতে আক্রান্ত হয়েছে যা ধানের পাতাপোড়া রোগ সৃষ্টি করে। দাগগুলো পাতার এক প্রান্ত, উভয় প্রান্ত বা ক্ষত পাতার যেকোনো জায়গা থেকে শুরু হয়ে আস্তে আস্তে পুরো পাতা ঝলসে বা পুড়ে খড়ের মতো হয়ে শুকিয়ে যায়। আক্রমণপ্রবণ জাতের ধানে দাগগুলো পাতার খোলের নিচ পর্যন্ত যেতে পারে। এক সময় সম্পূর্ণ পাতাটি ঝলসে যায় বা পুড়ে খড়ের মতো হয়ে শুকিয়ে যায়। "
+                android:textSize="17sp"
+                android:layout_margin="10dp"
+                android:padding="10dp"
+                />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:layout_weight="0.02"
+                app:srcCompat="@drawable/patapora" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="17sp"
+                android:layout_margin="10dp"
+                android:padding="10dp"
+                android:text="প্রতিকার:\n রোগ প্রতিরোধ ক্ষমতাসম্পন্ন জাতের ধান চাষ করা।
+- সুষম মাত্রায় সার প্রয়োগ করা।
+- আক্রান্ত গাছ তুলে ফেলে পাশের গাছ থেকে কুশি এনে লাগিয়ে দেয়া।
+- আক্রান্ত ক্ষেতের পানি বের করে দিয়ে জমি ভেদে ৭-১০ দিন শুকানো।
+- জমি শুকিয়ে নাড়া ক্ষেতে পুড়িয়ে ফেলা।
+- আক্রান্ত ক্ষেতে নাইট্রোজেন সার প্রয়োগ না করা।
+- আক্রান্ত ক্ষেতে বিঘা প্রতি ৫ কেজি পটাশ সার প্রয়োগ করে মাটিতে ভালোভাবে মিশিয়ে দিলে এ রোগের তীব্রতা কমে।"
+                />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

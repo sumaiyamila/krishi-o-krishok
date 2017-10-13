@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/ScrollView01"
+    android:fillViewport="true"
+    android:scrollbars="none"
+    tools:context="foshol.company.com.foshol.OfficerSignUp">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="অফিসারের তথ্য"
+            android:textColor="#0000FF"
+            android:textSize="20dp"
+            tools:layout_editor_absoluteX="144dp"
+            tools:layout_editor_absoluteY="22dp"
+            android:layout_marginTop="13dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+        <TextView
+            android:id="@+id/tv2"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="23dp"
+            android:text="নাম"
+            android:textSize="15dp"
+            android:layout_below="@+id/tv1"
+            android:layout_alignRight="@+id/tv3"
+            android:layout_alignEnd="@+id/tv3"
+            android:layout_alignLeft="@+id/tv3"
+            android:layout_alignStart="@+id/tv3" />
+
+        <EditText
+            android:id="@+id/et1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="আপনার নাম লিখুন"
+            android:layout_alignBottom="@+id/tv2"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="14dp"
+            android:layout_marginEnd="14dp" />
+
+
+        <TextView
+            android:id="@+id/tv3"
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="11dp"
+            android:layout_marginStart="11dp"
+            android:layout_marginTop="30dp"
+            android:text="ইমেইল"
+            android:textSize="15dp"
+            android:layout_below="@+id/tv2"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <EditText
+            android:id="@+id/et2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="আপনার ইমেইল লিখুন"
+            android:ems="10"
+            android:inputType="textEmailAddress"
+            android:layout_alignBottom="@+id/tv3"
+            android:layout_alignLeft="@+id/et1"
+            android:layout_alignStart="@+id/et1" />
+        <TextView
+            android:id="@+id/tv4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:text="পাসওয়ার্ড"
+            android:layout_below="@+id/tv3"
+            android:layout_alignLeft="@+id/tv3"
+            android:layout_alignStart="@+id/tv3"
+            android:layout_marginTop="25dp" />
+        <TextView
+            android:id="@+id/tv5"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:textSize="15dp"
+            android:text="পাস ওয়ার্ড নিশ্চিত করুন"
+            android:layout_below="@+id/tv4"
+            android:layout_alignLeft="@+id/tv4"
+            android:layout_alignStart="@+id/tv4"
+            android:layout_marginTop="28dp" />
+        <TextView
+            android:id="@+id/tv6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="22dp"
+            android:textSize="15dp"
+            android:text="জেলা"
+            android:layout_below="@+id/tv5"
+            android:layout_alignLeft="@+id/tv5"
+            android:layout_alignStart="@+id/tv5" />
+        <TextView
+            android:id="@+id/tv7"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:text="শহর"
+            android:textSize="15dp"
+            android:layout_below="@+id/tv6"
+            android:layout_alignLeft="@+id/tv6"
+            android:layout_alignStart="@+id/tv6"
+            android:layout_marginTop="25dp" />
+        <EditText
+            android:id="@+id/et3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="আপনার পাসওয়ার্ড দিন"
+            android:inputType="textPassword"
+            android:layout_alignBaseline="@+id/tv4"
+            android:layout_alignBottom="@+id/tv4"
+            android:layout_alignLeft="@+id/et2"
+            android:layout_alignStart="@+id/et2" />
+
+        <EditText
+            android:id="@+id/et4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="পুনরায় পাসওয়ার্ড দিন"
+            android:inputType="textPassword"
+            android:layout_alignTop="@+id/tv5"
+            android:layout_alignLeft="@+id/et3"
+            android:layout_alignStart="@+id/et3" />
+        <EditText
+            android:id="@+id/editText5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="আপনার শহর"
+            android:layout_alignBottom="@+id/tv7"
+            android:layout_alignLeft="@+id/spinner"
+            android:layout_alignStart="@+id/spinner" />
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/et4"
+            android:layout_alignStart="@+id/et4"
+            android:layout_alignTop="@+id/tv6" />
+
+        <ImageButton
+            android:id="@+id/btn3"
+            android:layout_width="160dp"
+            android:layout_height="55dp"
+            app:srcCompat="@drawable/submit"
+            android:layout_alignParentBottom="true"
+            android:layout_alignLeft="@+id/tv1"
+            android:layout_alignStart="@+id/tv1"
+            android:layout_marginBottom="33dp" />
+
+
+    </RelativeLayout>
+
+</ScrollView>

@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="foshol.company.com.foshol.KrishokSignUp">
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="50dp"
+        android:layout_height="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="23dp"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="47dp"
+        android:text="নাম" />
+
+    <EditText
+        android:id="@+id/et1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="17dp"
+        android:layout_marginStart="17dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="আপনার নাম লিখুন"
+        android:layout_alignBottom="@+id/tv1"
+        android:layout_toRightOf="@+id/tv4"
+        android:layout_toEndOf="@+id/tv4" />
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:layout_alignLeft="@+id/tv1"
+        android:layout_alignStart="@+id/tv1"
+        android:layout_below="@+id/tv1"
+        android:layout_marginTop="46dp"
+        android:hint="ইমেইল" />
+
+    <EditText
+        android:id="@+id/et2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="ইমেইল দিন"
+        android:layout_alignBaseline="@+id/tv2"
+        android:layout_alignBottom="@+id/tv2"
+        android:layout_alignLeft="@+id/et1"
+        android:layout_alignStart="@+id/et1" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:layout_alignLeft="@+id/tv2"
+        android:layout_alignStart="@+id/tv2"
+        android:layout_below="@+id/et2"
+        android:layout_marginTop="44dp"
+        android:text="পাসওয়ার্ড" />
+
+    <EditText
+        android:id="@+id/et3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="পাসওয়ার্ড দিন"
+        android:layout_alignBottom="@+id/textView8"
+        android:layout_alignLeft="@+id/et2"
+        android:layout_alignStart="@+id/et2" />
+
+    <TextView
+        android:id="@+id/tv4"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_alignLeft="@+id/textView8"
+        android:layout_alignStart="@+id/textView8"
+        android:layout_below="@+id/textView8"
+        android:layout_marginTop="39dp"
+        android:text="পাসওয়ার্ড নিশ্চিত করুন" />
+
+    <EditText
+        android:id="@+id/et4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="পুনরায় পাসওয়ার্ড দিন"
+        android:layout_alignBottom="@+id/tv4"
+        android:layout_alignLeft="@+id/et3"
+        android:layout_alignStart="@+id/et3" />
+
+    <TextView
+        android:id="@+id/tv5"
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:layout_alignLeft="@+id/tv4"
+        android:layout_alignStart="@+id/tv4"
+        android:layout_below="@+id/tv4"
+        android:layout_marginTop="41dp"
+        android:text="জেলা" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/et4"
+        android:layout_alignStart="@+id/et4"
+        android:layout_alignTop="@+id/tv5"
+        />
+
+    <ImageButton
+        android:id="@+id/btn1"
+        android:layout_width="160dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/et6"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="11dp"
+        app:srcCompat="@drawable/submit" />
+
+    <TextView
+        android:id="@+id/tv6"
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:layout_alignLeft="@+id/tv5"
+        android:layout_alignStart="@+id/tv5"
+        android:layout_below="@+id/tv5"
+        android:layout_marginTop="34dp"
+        android:text="শহর" />
+
+    <EditText
+        android:id="@+id/et6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="আপনার শহরের নাম দিন"
+        android:layout_alignBottom="@+id/tv6"
+        android:layout_alignLeft="@+id/spinner"
+        android:layout_alignStart="@+id/spinner" />
+
+    <TextView
+        android:id="@+id/textView34"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="কৃষকের তথ্য"
+        android:textColor="#0000FF"
+        android:textSize="20dp"/>
+
+
+
+
+</RelativeLayout>

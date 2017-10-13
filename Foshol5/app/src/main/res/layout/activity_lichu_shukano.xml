@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="foshol.company.com.foshol.LichuShukano">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="          লিচু ফল শুকিয়ে যাওয়া রোগ"
+            android:textAlignment="center"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:textColor="#9ACD32"/>
+
+        <ImageButton
+            android:id="@+id/btn2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/lichushukano" />
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="দীর্ঘ খরা হলে বা শুষ্ক ও গরম হাওয়ার ফলে শারীল বৃত্তীয় কারণে লিচু শুকিয়ে যেতে পারে । এর ব্যবস্থাপনা হল:
+১. খরা মৌসুমে সপ্তাহে ২ বার নিয়মিত সেচ দেওয়া
+২. বিকাল বেলা গাছে পানি স্প্রে করা
+৩. পর্যাপ্ত জৈব সার প্রয়োগ করা।" />
+    </LinearLayout>
+
+</ScrollView>

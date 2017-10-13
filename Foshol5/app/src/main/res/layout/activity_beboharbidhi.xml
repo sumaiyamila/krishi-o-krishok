@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context="foshol.company.com.foshol.Beboharbidhi">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="ব্যবহারবিধি"
+
+        android:textColor="#0000FF"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="১. মূল পাতায় প্রবেশ করুন " />
+
+    <TextView
+        android:id="@+id/textView49"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="২।কৃষকক প্রাথমিকভাবে পোকামাকড় ও রোগ বালাই থেকে নিজের ফসলের রোগটি চিনহিত করুন।
+৩। চিহ্নিত ছবিতে ক্লিক করে সমস্যার বর্ণনা ও প্রতিকার জেনে নিন।
+৪।  কৃষকের সমস্যা খুজে না পেলে ছবি তুলে সমস্যা জমা দিন। জমা দেয়ার পুর্বে একাউন্ট খুলে নিন।
+৫। জেলা কৃষি অধিদপ্তর অফিসার আপনার সমস্যার সমাধান দিবেন।
+৬। বিক্রেতা নিজের পণ্যের তথ্য প্রদান করতে পারেন। তথ্য দেয়ার আগে একাউন্ট খুলে নিন।
+" />
+</LinearLayout>

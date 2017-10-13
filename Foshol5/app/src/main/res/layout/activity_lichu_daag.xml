@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="foshol.company.com.foshol.LichuDaag">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="         লিচুর পাতার দাগ রোগ"
+            android:textAlignment="center"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:textColor="#9ACD32"/>
+
+        <ImageButton
+            android:id="@+id/btn2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/lichudaag" />
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="এ রোগ ছত্রাকের আক্রমণে হয়ে থাকে। এতে পাতায় বাদামী থেকে কালো দাগ হয়।কচি পাতা আক্রান্ত হলে পাতা কুঁচকে যায়।
+
+প্রতিকার :
+# আক্রান্ত পাতা ও ডগা ছাটাই করে ধ্বংস করা।
+# গাছের বয়স অনুযায়ী সুষম সার প্রয়োগ করা। "/>
+    </LinearLayout>
+
+</ScrollView>

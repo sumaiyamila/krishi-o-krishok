@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="foshol.company.com.foshol.KatuiPoka">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="          আলুর কাটুই পোকা"
+            android:textAlignment="center"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:textColor="#9ACD32"/>
+
+        <ImageButton
+            android:id="@+id/btn2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/alukatui" />
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="কাটুইপোকা (Agrotis ypsilon) রাতে আলুর চারাগাছ মাটির ঠিক উপরিভাগে কেটে কচি কান্ড ও পাতা খায়। C-আকৃতির লার্ভা দিনের বেলায় মাটির নিচে লুকিয়ে থাকে। বয়স্ক মথ প্রায়ই মাঠে উড়তে দেখা যায়। উড়চুঙ্গা (Field cricket), Brachytrypes portentosus কাটুইপোকার মতোই ক্ষতিসাধন করে। এরা চারাগাছের গোড়া বা মূল কেটে দেয়। বিভিন্ন প্রজাতির পাতাফড়িং আলু গাছ আক্রমণ করে। এগুলির মধ্যে সবচেয়ে মারাত্মক হচ্ছে Empoasca devastans (Cicadellidae, Homoptera)। বয়স্ক পোকা ও নিম্ফ উভয়ে একাধারে পাতার রস চুষে নেওয়ার ফলে পাতা কুঁচকে শুকিয়ে যায়। ব্যাপক আক্রমণ থেকে ‘হপার-বার্ন’ সৃষ্টি হতে পারে। এসব পতঙ্গ ভাইরাস রোগও সংক্রমণ করে। জাবপোকা Myzus persicae ও Apis gossypii (Aphididae, Homoptera) সম্ভবত আলুর সবচেয়ে মারাত্মক আপদ। বয়স্ক ও অপরিণত পোকা উভয়ে পাতা থেকে রস চুয়ে খায়, ফলে পাতা নীচের দিকে কুচকে যায়। অনুকূল পরিবেশে তাদের সংখ্যা ব্যাপকহারে বৃদ্ধি পায়। খাদ্যগ্রহণ ক্ষতি ছাড়াও জাবপোকা আলুর ভাইরাস রোগসমূহ ছড়ায় বলে জানা যায় যা উৎপাদনকে মারাত্মকভাবে ক্ষতিগ্রস্ত করতে পারে।"/>
+
+        <TextView
+            android:id="@+id/textView41"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="প্রতিকার" />
+
+        <TextView
+            android:id="@+id/textView40"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="১। সকাল বেলা কেটে ফেলা চারার আশে পাশে মাটি খুরে পোকা বের করে মেরে ফেলা ।
+২। কেরোসিন (২-৩ লি./ হেক্টর হারে) মিশ্রিত পানি সেচ দেয়া।
+৩। পাখি বসার জন্য ক্ষেতে ডালপালা পুতে দেয়া।
+৪। রাতে ক্ষেতে মাঝে মাঝে আবর্জনা জড়ো করে রাখলে তার নিচে কীড়া এসে জমা হবে, সকালে সেগুলোকে মেরে ফেলা।
+৫। ক্ষেতের মাটি আলগা করে দেওয়া।
+৬. এ পোকা নিশাচর, রাতের বেলা সক্রিয় থাকে- তাই রাতে হারিকেন বা টর্চ দিয়ে খুজে খুজে পোকা মেরে ফেলা " />
+    </LinearLayout>
+
+</ScrollView>

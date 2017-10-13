@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="foshol.company.com.foshol.Index"
+    android:layout_gravity="center"
+    >
+
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="150dp"
+        android:layout_height="130dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="32dp"
+        app:srcCompat="@drawable/pokamakor" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="150dp"
+        android:layout_height="130dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/imageButton2"
+        android:layout_marginEnd="13dp"
+        android:layout_marginRight="13dp"
+        app:srcCompat="@drawable/bazardor" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="150dp"
+        android:layout_height="130dp"
+        android:layout_below="@+id/textView4"
+        android:layout_marginTop="44dp"
+        android:layout_toEndOf="@+id/textView4"
+        android:layout_toRightOf="@+id/textView4"
+        app:srcCompat="@drawable/tips" />
+
+
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="100dp"
+        android:layout_height="35dp"
+        android:text="পোকামাকড় ও রোগবালাই"
+        android:textColor="#008000"
+        android:textSize="15dp"
+        android:layout_alignLeft="@+id/imageButton2"
+        android:layout_alignStart="@+id/imageButton2"
+        android:layout_alignBottom="@+id/textView5" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="80dp"
+        android:layout_height="30dp"
+
+        android:text="বাজারদর"
+        android:textColor="#008000"
+        android:textSize="15dp"
+        android:layout_marginTop="23dp"
+        android:layout_below="@+id/imageButton3"
+        android:layout_toRightOf="@+id/buttonLogIn"
+        android:layout_toEndOf="@+id/buttonLogIn" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="80dp"
+        android:layout_height="30dp"
+
+        android:text="  ব্যবহারবিধি"
+        android:textColor="#008000"
+        android:textSize="15dp"
+        android:layout_above="@+id/buttonLogIn"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/buttonLogIn"
+        android:layout_width="120dp"
+        android:layout_height="55dp"
+        android:text="লগ ইন করুন"
+        android:layout_marginBottom="32dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="#008000"/>
+
+</RelativeLayout>

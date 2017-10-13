@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="foshol.company.com.foshol.Pat"
+    android:background="@drawable/tree"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            >
+
+            <Button
+                android:id="@+id/bButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="32dp"
+                android:layout_marginBottom="32dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="পাটের বিছা পোকা"
+                android:textSize="17sp"
+                android:background="#32FFFFFF"
+                />
+            <Button
+                android:id="@+id/ghoraButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="32dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="পাটের ঘোড়া পোকা"
+                android:textSize="17sp"
+                android:background="#32FFFFFF"
+                />
+            <Button
+                android:id="@+id/goraPochatButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="32dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="পাট গাছের গোড়া পঁচা রোগ"
+                android:textSize="17sp"
+                android:background="#32FFFFFF"
+                />
+            <Button
+                android:id="@+id/mButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="32dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="পাতার মোজাইক রোগ"
+                android:textSize="17sp"
+                android:background="#32FFFFFF"
+                />
+
+            <Button
+                android:id="@+id/kandoPochaButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="32dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="পাটের কান্ডপচা রোগ"
+                android:textSize="17sp"
+                android:background="#32FFFFFF"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="foshol.company.com.foshol.PataHoludWheat"
+    android:background="#489bb280"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="3">
+
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="লক্ষণ:\n এ রোগে পাতায় বাদামী ফুসকুরী আকারে দাগ দেখা যায়। পরে এসব দাগগুলো একমেত্র মিশে যায় এবং সম্পূর্ণ পাতা পোড়া দেখায়। রোগের জীবাণু বীজে কিংবা ফসলের পরিত্যক্ত অংশে বেঁচে থাকে। বাতাসের অধিক আদ্রতা এবং উচ্চ তাপমাত্রা (২৫ ডিগ্রী সে.) এ রোগ বিস্তারের জন্য সহায়ক। "
+                android:textSize="17sp"
+                android:layout_margin="10dp"
+                android:padding="10dp"
+                />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:layout_weight="2.19"
+                app:srcCompat="@drawable/wheatpatajhl" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="17sp"
+                android:layout_margin="10dp"
+                android:padding="10dp"
+                android:text="ব্যবস্থাপনা:\nরোগ প্রতিরোধ ক্ষমতা সম্পন্ন জাত ব্যবহার করা। বীজ বপনের পূর্বে বিটাভেক্স ২০০ বি ৯৩ গ্রাম/কেজি বীজ) দ্বারা শোধন করা। আক্রমণ বেশি হলে অনুমোদিত ছত্রাকনাশক ব্যবহার করা যথা প্রোপিকোনাজল (টিল্ট ২৫০ ইসি) ১ মিঃ লিঃ প্রতি লিটার পানি।"
+                />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</RelativeLayout>

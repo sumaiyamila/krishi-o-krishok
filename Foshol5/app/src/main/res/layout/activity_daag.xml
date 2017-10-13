@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="foshol.company.com.foshol.Daag">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="          আমের পাতার দাগ রোগ"
+            android:textAlignment="center"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:textColor="#9ACD32"/>
+
+        <ImageButton
+            android:id="@+id/btn2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/daag" />
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="আমের পাতায় কাল কোণাকৃতির দাগ দেখা যায় । কচি কান্ড ও ফলেও দাগ দেখা যায় ।
+
+এর প্রতিকার হল:
+১. বাগান পরিচর্যার সময় গাছ ক্ষতিগ্রস্থ না করা
+২. জীবানুমুক্ত বীজ বা কলম রোপন করা।
+৩. কপার অক্সিক্লোরাইড ২.৫ গ্রাম / লি. হারে পানিতে মিশিয়ে ১৫ দিন পরপর ৩-৪ বার স্প্রে করা ।" />
+    </LinearLayout>
+
+</ScrollView>

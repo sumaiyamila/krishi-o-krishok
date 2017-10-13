@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="foshol.company.com.foshol.LalMoricha">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="আমের পাতার লাল মরিচা রোগ"
+            android:textAlignment="center"
+            android:textColor="#9ACD32"
+            android:textSize="25dp"
+            android:textStyle="bold"/>
+
+        <ImageButton
+            android:id="@+id/btn3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/lalmoricha" />
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ক্ষতির লক্ষণ
+
+এ রোগের আক্রমণে পাতায় , ফলে ও কান্ডে লালচে মরিচার মত একধরনের উচু দাগ দেখা যায়। একধরণের সবুজ শৈবালের আক্রমণে এ রোগ হয়।
+" />
+
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="প্রতিকার :
+১। আক্রান্ত পাতা ও ডগা ছাটাই করে ধ্বংস করা।
+২।  কপার বা কুপ্রাভিট ১০ লি. পানিতে ২০ গ্রাম মিশিয়ে ১৫ দিন পরপর ২ বার স্প্রে করা।" />
+
+    </LinearLayout>
+
+</ScrollView>

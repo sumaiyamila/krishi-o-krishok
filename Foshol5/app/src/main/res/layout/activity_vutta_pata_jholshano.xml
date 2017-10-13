@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="foshol.company.com.foshol.VuttaPataJholshano"
+    android:background="#489bb280"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="3">
+
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="সংক্রমণ:\nহেলমিনথোসপরিয়াম টারসিকাম ও হেলমিনথোসপরিয়াম মেইডিস নামক ছত্রাকদ্বয় এ রোগ সৃষ্টি করে। প্রথম ছত্রাকটি দ্বারা আমাদের দেশে ভুট্টার পাতা ঝলসানো রোগ বেশী হতে দেখা যায়। হেলমিনথোসপরিয়াম টারসকাম দ্বারা আক্রান্ত গাছের নিচের দিকের পাতায় লম্বাটে ধূসর বর্ণের দাগ দেখা যায়। পরবর্তীতে গাছের উপরের অংশে তা বিস্তার লাভ করে। রোগের প্রকোপ বেশী হলে পাতা আগাম শুকিয়ে যায় এবং গাছ মরে যায়। এ রোগের জীবানু গাছের আক্রান্ত অংশে অনেক দিন বেঁচে থাকে জীবাণুর বীজকণা বা কনিডিয়া বাতাসের সাহায্যে অনেক দূর পর্যন্ত সুস্থ্য গাছে ছড়াতে পারে। বাতাসের আদ্রতা বেশী হলে এবং ১৮-২৭ ডিগ্রী সে. তাপমাত্রায় এ রোগের আক্রমণ বেড়ে যায়।"
+                android:textSize="17sp"
+                android:layout_margin="10dp"
+                android:padding="10dp"
+                />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:layout_weight="0.02"
+                app:srcCompat="@drawable/vuttapata" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="17sp"
+                android:layout_margin="10dp"
+                android:padding="10dp"
+                android:text="রোগ ব্যবস্থাপনা:\n১.  রোগ প্রতিরোধী জাতের (মোহর) চাষ করতে হবে।
+২.   আক্রান্ত ফসলে টিল্ট ২৫০ ইসি (০.০৪%) ১৫ দিন পর পর ২-৩ বার স্প্রে করতে হবে।
+৩. ভুট্টা উঠানোর পর জমি থেকে আক্রান্ত গাছ সরিয়ে অথবা পুড়িয়ে ফেলতে হবে।"
+                />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+</RelativeLayout>

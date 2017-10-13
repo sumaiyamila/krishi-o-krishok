@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="foshol.company.com.foshol.RiceTungro"
+    android:background="#489bb280"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="3">
+
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="আক্রমণের লক্ষণ:\nআক্রান্ত পাতা প্রথমে হালকা হলুদ এবং পরে গাঢ় হলুদ থেকে কমলা বর্ণের হয়ে যায় । কচি পাতাগুলো পুরাতন পাতার খোলের মধ্যে আটকে থাকে । পাতা ও কান্ডের মধ্যবর্তী কোণ বেড়ে যায় ও গাছ খাটো হয় । আক্রন্ত ধান গাছ পাতা পর্যন্ত বেঁচে থাকলে ও আক্রমণ তীব্র হলে গাচ টান দিলে উঠে আসে এবং শুকিয়ে খড়ের মত হয়ে যায় । বিক্ষিপ্তভাবে কিছু কিছু গাছের প্রথমে হলুদ হয়ে আক্রন্ত গুছির সংখ্যা বাড়তে থাকে । অনেক সময় বীজতলাতেই টুংরো আক্রমাণে হলুদ বর্ণের চারা দেখা যায় । কিছুটা নাইট্রোজেনের ঘাটতির মত মনে হয় । "
+                android:textSize="17sp"
+                android:layout_margin="10dp"
+                android:padding="10dp"
+                />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:layout_weight="0.02"
+                app:srcCompat="@drawable/ricetungro" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="17sp"
+                android:layout_margin="10dp"
+                android:padding="10dp"
+                android:text="প্রতিকার:\n আলোর ফাঁদ ব্যবহার করে সবুজ পাতা ফড়িং মেরে ফেলা ।
+# আড়ালি ঘাস, বাওয়া ধান ইত্যাদি বা অন্যন্য আগাছা নিধন করা
+# হাত জালের প্রতি একশত টানে ৪০-৫০ টি সবুজ পাতাফড়িং পাওয়া গেলে অনুমোদিত কীটনাশক অনু্মোদিত মাত্রায় ব্যবহার করা যেতে পারে । যেমনঃ ফেনথয়েট ১০লিটার পানিতে ২০ মিলি প্রতি ৫শতক হারে ।"
+                />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</RelativeLayout>

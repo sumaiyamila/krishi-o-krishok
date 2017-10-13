@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="foshol.company.com.foshol.LichuFolChidro">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="          লিচুর ফল ছিদ্র পোকা"
+            android:textAlignment="center"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:textColor="#9ACD32"/>
+
+        <ImageButton
+            android:id="@+id/btn2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/lichuchidro" />
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="এ পোকা ফলের বোটার কাছে ছিদ্র করে ভিতরে ঢুকে এবং  বীজ আক্রমন করে। পরে ছিদ্রের মুখে বাদামি রং্যের এক প্রকার গুরা তইরি হয়।ফলে ফল নষ্ট হয়।
+
+১. বাগান নিয়মিত পরিষ্কার রাখা।
+২. আক্রান্ত পাতা ও ডাল অপসারণ করা।
+৩. আক্রান্ত ফল মাটিতে পুতে ফেলা।
+"/>
+    </LinearLayout>
+
+</ScrollView>

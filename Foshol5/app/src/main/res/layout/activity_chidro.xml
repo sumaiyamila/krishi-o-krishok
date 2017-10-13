@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="foshol.company.com.foshol.Chidro">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="আমের ফল ছিদ্রকারি পোকা"
+            android:textColor="#9ACD32"
+            android:textAlignment="center"
+            android:textSize="25dp"
+            android:textStyle="bold"/>
+
+        <ImageButton
+            android:id="@+id/btn3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/chidropoka" />
+
+        <TextView
+            android:id="@+id/textView28"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:text=" ফল ছিদ্রকারী পোকা আমের ফল ছিদ্রকারী পোকার আক্রমণ ১৯৯৫ সাল থেকে চাঁপাই নবাবগঞ্জ এর বিভিন্ন উপজেলায় লক্ষ্য করা যায়। এর পর প্রায় প্রতি বছর এ পোকার আক্রমণ দেখা গেছে। বর্তমানে আম চাষীদের নিকট এ পোকা একটি অন্যতম সমস্যা হিসেবে চিহ্নিত।" />
+
+        <TextView
+            android:id="@+id/textView29"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:text="ক্ষতির ধরণ আম মার্বেল আকারের হলেই এ পোকার আক্রমন শুরু হয় এবং আম পাকার পূর্ব পর্যন্ত তা অব্যাহত থাকে। পূর্ণ বয়স্ক স্ত্রী পোকা আমের নিচের অংশে খোসার উপর ডিম পাড়ে। কয়েকদিনের মধ্যেই ডিম ফুটে কীড়া বের হয়। কীড়া খুব ছোট বিন্দুর মত আম ছিদ্র করে আমের ভিতর ঢুকে পড়ে এবং আমের শাঁস খেতে থাকে। পরে আটি পর্যন্ত আক্রমণ করে। আক্রান্ত স্থানটি কাল হয়ে যায়। আক্রান্ত স্থানে জীবাণুর আক্রমণের ফলে পচন ধরে যায়। বেশী আক্রান্ত আম ফেটে যায় এবং গাছ থেকে পড়ে যায়।" />
+
+        <TextView
+            android:id="@+id/textView30"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="প্রতিকার :  " />
+
+        <TextView
+            android:id="@+id/textView31"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:text="ক) আক্রান্ত আম সংগ্রহ করে ধ্বংস করতে হবে অর্থাৎ মাটিতে পুঁতে ফেলতে হবে এবং গাছের মরা ডালপালা ছেঁটে ফেলতে হবে। ফলে পোকার আক্রমণ কম হবে।" />
+
+        <TextView
+            android:id="@+id/textView32"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:text="খ) আম বাগান নিয়মিত চাষ দিয়ে আগাছা মুক্ত ও পরিষ্কার পরিচ্ছন্ন রাখতে হবে ।" />
+
+        <TextView
+            android:id="@+id/textView33"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:text="গ) পোকার আক্রমণ দেখা দেওয়া মাত্র ফেনিট্রোথিয়ন বা ফেনথিয়ন জাতীয় কীটনাশক প্রতি লিটার পানিতে ২ মিলি হারে স্প্রে করতে হবে। তাছাড়া কার্বারিল জাতীয় কীটনাশক ২ গ্রাম/লিটার পানিতে অথবা কারটাপ জাতীয় কীটনাশক ১ গ্রাম/লিটার পানিতে মিশিয়ে স্প্রে করা যায়। এক্ষেত্রে হারভেস্ট-এ ভাল ফল পাওয়া যায়।" />
+    </LinearLayout>
+
+</ScrollView>

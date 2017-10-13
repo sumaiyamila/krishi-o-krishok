@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="foshol.company.com.foshol">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="কৃষি ও কৃষক "
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivityFoshol">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Page2" />
+        <activity
+            android:name=".Rice"
+            android:label="ধান" />
+        <activity
+            android:name=".GachForing"
+            android:label="আমন ধানের ক্ষতিকর বাদামি গাছ ফড়িং " />
+        <activity
+            android:name=".Boro"
+            android:label="বোরো ধানের পাতা মোড়ানো পোকা" />
+        <activity
+            android:name=".BoroBonmasto"
+            android:label="বোরো ধানের বস্নাস্ট রোগ" />
+        <activity
+            android:name=".BoroKholPora"
+            android:label="বোরো ধানের পাতাপোড়া রোগ" />
+        <activity
+            android:name=".BoroPamri"
+            android:label="বোরো ধানের পামরি পোকা এবং মাজরা পোকার দমন" />
+        <activity
+            android:name=".RiceGuriPocha"
+            android:label="ধানের গুড়িপঁচা রোগ" />
+        <activity
+            android:name=".RiceTungro"
+            android:label="ধানের টুংরো রোগ" />
+        <activity
+            android:name=".Wheat"
+            android:label="গম" />
+        <activity
+            android:name=".PataiPhushkuri"
+            android:label="গমের মাজরা পোকা" />
+        <activity
+            android:name=".FosholPhuskuri"
+            android:label="গমের ব্লাস্ট রোগ" />
+        <activity
+            android:name=".PataHoludWheat"
+            android:label="গমের পাতা ঝলসানো রোগ" />
+        <activity
+            android:name=".PataRoot"
+            android:label="গমের পাতার মরিচা রোগ" />
+        <activity
+            android:name=".Scab"
+            android:label="গমের জাব পোকা" />
+        <activity
+            android:name=".Pat"
+            android:label="পাট" />
+        <activity
+            android:name=".PatGhora"
+            android:label="পাটের ঘোড়া পোকা" />
+        <activity
+            android:name=".PatBichaPoka"
+            android:label="পাটের বিছা পোকা" />
+        <activity
+            android:name=".PatMojaik"
+            android:label="পাতার মোজাইক রোগ" />
+        <activity
+            android:name=".PatGoraPocha"
+            android:label="পাট গাছের গোড়া পঁচা রোগ" />
+        <activity
+            android:name=".PatKandoPocha"
+            android:label="পাটের কান্ডপচা রোগ" />
+        <activity
+            android:name=".Vutta"
+            android:label="ভুট্টা" />
+        <activity
+            android:name=".VuttaSeedPocha"
+            android:label="ভুট্টার বীজ পচা" />
+        <activity
+            android:name=".VuttaPataJholshano"
+            android:label="ভুট্টার পাতা ঝলসানো রোগ" />
+        <activity
+            android:name=".VuttaMocha"
+            android:label="ভুট্টার মোচা ও দানা পচা রোগ" />
+        <activity
+            android:name=".VuttaKando"
+            android:label="ভুট্টার কান্ড পচা রোগ" />
+        <activity android:name=".Index" />
+        <activity android:name=".SignIn" />
+        <activity android:name=".SelectStatus" />
+        <activity android:name=".Profile" />
+        <activity android:name=".KrishokSignUp" />
+        <activity android:name=".SellerSignUp" />
+        <activity android:name=".OfficerSignUp" />
+        <activity android:name=".Poka2" />
+        <activity
+            android:name=".Fol"
+            android:label="ফল" />
+        <activity
+            android:name=".Aam"
+            android:label="আম" />
+        <activity
+            android:name=".Kathal"
+            android:label="কাঁঠাল" />
+        <activity android:name=".Lichu" />
+        <activity android:name=".Peyara" />
+        <activity android:name=".MangoHopper" />
+        <activity android:name=".Daag" />
+        <activity android:name=".LalMoricha" />
+        <activity android:name=".Milibug" />
+        <activity android:name=".Chidro" />
+        <activity android:name=".KathalDaag" />
+        <activity android:name=".KathalMajra" />
+        <activity android:name=".KathalJaab" />
+        <activity android:name=".LichuFata" />
+        <activity android:name=".LichuFolChidro" />
+        <activity android:name=".LichuDaag" />
+        <activity android:name=".LichuShukano" />
+        <activity android:name=".PeyaraMachi" />
+        <activity android:name=".PeyaraJab" />
+        <activity android:name=".PeyaraMachii" />
+        <activity android:name=".Shobji" />
+        <activity android:name=".Aalu" />
+        <activity android:name=".AaluDhosha" />
+        <activity android:name=".KatuiPoka" />
+        <activity android:name=".BadamiPocha" />
+        <activity android:name=".Begun" />
+        <activity android:name=".Badhakopi" />
+        <activity android:name=".BegunDump" />
+        <activity android:name=".BegunFangal" />
+        <activity android:name=".BegunKhudePata" />
+        <activity android:name=".BadhakopiDoyei" />
+        <activity android:name=".BadhakopiLif" />
+        <activity android:name=".BadhakopiGhora" />
+        <activity android:name=".Beboharbidhi" />
+        <activity android:name=".KrishokProfile" />
+        <activity android:name=".SellerProfile" />
+        <activity android:name=".OfficerProfile" />
+        <activity android:name=".AddGood" />
+        <activity android:name=".Bazar" />
+        <activity android:name=".PriceList" />
+        <activity android:name=".KrishokGoods" />
+        <activity android:name=".KrishokProfileUpdate" />
+        <activity android:name=".Seller" />
+        <activity android:name=".FirstFragment" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyAeJR_NqBxxREDGDnB310y5UNIh5eoKH6Q" />
+
+        <activity android:name=".BazarName" />
+        <activity android:name=".OfficerProfileUpdate" />
+        <activity android:name=".BazarName2" />
+    </application>
+
+</manifest>

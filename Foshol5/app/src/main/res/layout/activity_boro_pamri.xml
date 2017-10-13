@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="foshol.company.com.foshol.BoroPamri"
+    android:background="#489bb280"
+    >
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="3">
+
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="আক্রমণের লক্ষণ:\nবোরো ধানের চারা কচি অবস্থায় কালো, ছোট, কাঁটাযুক্ত পামরি পোকার আক্রমণ হতে পারে। এ পোকা পাতার আগা থেকে নিচের দিকের সবুজ অংশ খেয়ে পাতা ঝাঁঝরা করে ফেলে। এতে গাছের আগা শুকিয়ে যায়। পাতার মধ্যে পোকার ডিম, কীড়া বা ছোট গ্রাব লেগে থাকতে পারে।"
+                android:textSize="17sp"
+                android:layout_margin="10dp"
+                android:padding="10dp"
+                />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="17sp"
+                android:layout_margin="10dp"
+                android:padding="10dp"
+                android:text="প্রতিকার:\nআক্রান্ত গাছের শুকিয়ে যাওয়া পাতার ১ মুঠি পরিমাণ কেটে নিয়ে পুড়িয়ে ফেলতে হবে। এতে পোকার বংশ বৃদ্ধি কমে যাবে। এর পর প্রয়োজনে ম্যালাথিয়ন, সুমিসাইডিল, ডেসিস এ জাতীয় ওষুধ সপ্রে করা যেতে পারে। চারার বসয় ৫ থেকে ৬ সপ্তাহ হলে মাজরা পোকার আক্রমণ হতে পারে। এ পোকার কীড়া গাছের কাণ্ড ছিদ্র করে ভেতরে ঢুকে নরম অংশ খেয়ে ফেলে। এতে আগাছা শুকিয়ে যায়। হাত দিয়ে ধরে টান দিলে শীষ উঠে আসে। মাজরা পোকার মথ ডিম পেড়ে বংশ বৃদ্ধি করে। এছাড়া এ সময় সবুজ পাতা ফড়িংও দেখা যেতে পারে। এরা ছোট, লম্বা, সবুজ বর্ণের এবং ডানার দু’পাশে ছোট দু’টি কালো দাগ দেখতে পাওয়া যায়। এরা টুংরো ভাইরাস রোগ ছড়ায়। তাই এসব পোকা দমনে হাত জাল ব্যবহার করে ধরে মেরে ফেলতে হবে। প্রয়োজনে নিকটস্থ উপ-সহকারী কৃষি কর্মকর্তার পরামর্শ মত কীটনাশক সপ্রে করা যেতে পারে।"
+                />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

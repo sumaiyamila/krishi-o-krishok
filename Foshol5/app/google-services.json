@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "249825662899",
+    "firebase_url": "https://foshol-d22fe.firebaseio.com",
+    "project_id": "foshol-d22fe",
+    "storage_bucket": "foshol-d22fe.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:249825662899:android:145e3b95c18d0f1f",
+        "android_client_info": {
+          "package_name": "foshol.company.com.foshol"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "249825662899-v8e8ke2efmie3ppik054ve76ikgiffmj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "foshol.company.com.foshol",
+            "certificate_hash": "32f454a0213f430eccd3df9c3d43d4b17d144cec"
+          }
+        },
+        {
+          "client_id": "249825662899-8q3cpomn93nhfqk97n8fo38mfuerdp1g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDYtDWvjqOgoJAlwpgA9l266T4zBRuSj8Y"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "249825662899-8q3cpomn93nhfqk97n8fo38mfuerdp1g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="foshol.company.com.foshol.VuttaKando"
+    android:background="#489bb280"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="3">
+
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="সংক্রমণ:\nবিভিন্ন প্রজাতির ছত্রাক যথা ডিপ্লোডিয়া মেডিস, ফিউজেরিয়াম মনিলিফরমি-এর কারণে এ রোগ ঘটে থাকে। প্রাথমিক লক্ষণ হিসেবে গাছের কান্ড পচে যায় এবং গাছ মাটিতে ভেঙ্গে পড়ে। আমাদের দেশে খরিফ মৌসুমে এ রোগ বেশী হয়ে থাকে। জমিতে নাইট্রোজেনের পরিমাণ বেশী এবং পটাশের পরিমাণ কম হলে ছত্রাক জনিত কান্ড পচা রোগ বেশী হয়।"
+                android:textSize="17sp"
+                android:layout_margin="10dp"
+                android:padding="10dp"
+                />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="17sp"
+                android:layout_margin="10dp"
+                android:padding="10dp"
+                android:text="রোগ ব্যবস্থাপনা:\n১.  ছত্রাকনাশক ভিটাভেক্স-২০০ দিয়ে বীজ শোধন করে লাগাতে হবে।
+২.  সুষম হারে সার ব্যবহার করতে হবে, বিশেষ করে নাইট্রোজেন ও পটাশ পরিমিত মাত্রায় প্রয়োগ করতে হবে।
+৩.  ভুট্টা কাটার পর পরিত্যক্ত অংশ পুড়িয়ে ফেলতে হবে।
+৪.  শিকড় ও কান্ড আক্রমকারী পোকা-মাকড় দমন করতে হবে।
+৫.  আক্রান্ত জমিতে অনুমোদিত ছত্রাকনাশক ২-৩ বার স্প্রে করতে হবে।"
+                />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

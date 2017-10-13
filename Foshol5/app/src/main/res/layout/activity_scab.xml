@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="foshol.company.com.foshol.Scab"
+    android:background="#489bb280"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="3">
+
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="আক্রমণের লক্ষণ:\n১. পূর্ণবয়স্ক ও নিম্ফ উভয় পাতা, কচি কান্ড ও ফুলের রস চুষে খায়।
+\n২. গাছ দুর্বল ও হলুদ হয়,অনেক সময় পাতা কুঁকড়ে যায় ও কচি ডগা মরে যায়।
+\n৩. পোকা এক ধরনের মধু রস নিঃসরণ করে, তাতে সুটিমোল্ড ছত্রাক জন্মে।
+\n৪.  আক্রান্ত অংশ কালো দেখায়।"
+                android:textSize="17sp"
+                android:layout_margin="10dp"
+                android:padding="10dp"
+                />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="0dp"
+                android:layout_weight="0.02"
+                app:srcCompat="@drawable/wheatjab" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="17sp"
+                android:layout_margin="10dp"
+                android:padding="10dp"
+                android:text="প্রতিকার:\n১. অক্টোবরে গম চাষ করলে জাব পোকার আক্রমণ কম হয়।\n২. আক্রান্ত পাতা, ডগা, ফুল পোকাসহ সংগ্রহ করে ধ্বংস করা।
+\n৩. কেরোসিন মিশ্রিত ছাই পাতায় ছিটিয়ে পোকা প্রতিরোধ করা য়ায়।
+\n৪. ডিটারজেন্ট ৩গ্রাম/ লিটার পানি+নিম/ বিষকাঠাঁলী/ ধুতরা/আতা/পেঁপে/ নিশিন্দা/
+জবা/গাদা ফুলের ১ কেজি পাতা থেতিয়ে১২ ঘন্টা ভিজে ১০ লিটার পানি স্প্রে করা।
+\n৫. ইমিডাক্লোপিড২০এসএল ( ইমিটাফ/ এডমায়ার/ টিডো/বাম্পার/ গেইন/ প্রিমিয়ার/
+অটোমিডা)০.৫মিঃলিঃ/ লিটার পানি স্প্রে করা।
+\n৬. এসিফেট ৭৫এসপি (এসাটাফ/ টিডফেট/ফরচুনেট)১.৫ গ্রাম/লিটার পানি স্প্রে।"
+                />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</RelativeLayout>

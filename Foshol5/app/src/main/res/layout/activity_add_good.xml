@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="foshol.company.com.foshol.AddGood">
+
+    <Spinner
+        android:id="@+id/spinnerName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="পণ্যের নাম"
+        android:entries="@array/Goods"/>
+
+    <EditText
+        android:id="@+id/textViewRoll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="পণ্যের দাম" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="পণ্য যোগ করুন" />
+
+    <ListView
+        android:id="@+id/ListViewGoods"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

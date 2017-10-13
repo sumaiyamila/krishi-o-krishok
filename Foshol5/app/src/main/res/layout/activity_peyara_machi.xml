@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="foshol.company.com.foshol.PeyaraMachi">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="          পেয়ারার সাদা মাছি পোকা"
+            android:textAlignment="center"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:textColor="#9ACD32"/>
+
+        <ImageButton
+            android:id="@+id/btn2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/peyaramachi" />
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="এরা পাতার রস চুষে খায় ফলে গাছ দুর্বল হয়ে পড়ে। পাতায় অসংখ্য সাদা বা হলদেটে দাগ হয় । সাদা তুলার মত বস্তু ও সাদা পাখাযুক্ত মাছি দেখা যায় ।
+প্রতিকার :
+১. সাদা আঠাযুক্ত বোর্ড স্থাপন বা আলোর ফাঁদ ব্যবহার করা।
+২. আক্রান্ত পাতা তুলে ধ্বংস করা।
+৩. 50 গ্রাম সাবানের গুড়া 10 লিটার পানিতে গুলে পাতার নিচে সপ্তাহে 2/3 বার ভাল করে স্প্রে করা। সাথে 5 কৌটা গুল (তামাক গুড়া) পানিতে মিশিয়ে দিলে ফল ভাল পাওয়া যায়।
+৪. সর্বশেষ ব্যবস্থা হিসাবে অনুমোদিত বালাইনাশক ব্যবহার করা। যেমন এডমায়ার 0.5 মিলি বা 0.25 মিলি ইমিটাফ বা 2 মিলি টাফগর/রগব/সানগর প্রতি লিটার পানিতে মিশিয়ে স্প্রে করা।"/>
+    </LinearLayout>
+
+</ScrollView>

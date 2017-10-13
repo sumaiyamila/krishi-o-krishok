@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="foshol.company.com.foshol.BegunFangal">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="          বেগুনের ফাঙ্গাল রোগ"
+            android:textAlignment="center"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:textColor="#9ACD32"/>
+
+        <ImageButton
+            android:id="@+id/btn2"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            app:srcCompat="@drawable/begunerfangal" />
+
+        <TextView
+            android:id="@+id/textView44"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text=" " />
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="ফেমপিসিস ফুটো বেগুনের একটি গুরুতর ফাঙ্গাল রোগ যা ফুঙ্গি ফোমোসিস ভাইক্সস দ্বারা সৃষ্ট হয়। এটি প্রধানত বেগুনের পাতা, ফল এবং ফলনকে প্রভাবিত করে। এই ফাঙ্গাল রোগের গুরুতর ইনফেকশন স্টেম লক্ষণগুলি মাটি পৃষ্ঠের উপরে সামান্য উপরে বাদামি বা গাঢ় অন্ধকারে আঘাত পেয়েছে এবং এর ফলে ক্যান্কারগুলি দেখা যায়। বীজ অঙ্কুরিত হয় এবং মারা যায় প্যাথোজেন হামলা করে কিন্তু বয়স্কদের আরো আকৃষ্ট হয়। উপসর্গগুলি মহাকর্ষীয়, গাঢ় বাদামি এবং একটি হালকা কেন্দ্র তৈরি করে। বয়স্ক জীবাণুগুলির মাঝখানে, অসংখ্য ফ্রুইটিং সংস্থাগুলি, পিকনিদিয়া নামে পরিচিত, ছোট, কালো pimples হিসাবে পর্যবেক্ষণ করা যায়, হোস্ট টিস্যুতে সংযুক্ত করা যায়। প্রভাবিত পাতা হলুদ হতে পারে এবং অকালে প্রস্থান করতে পারে। স্পট এবং ক্যান্কার পরিপক্ক ডাল এবং শাখা উপর গঠন করতে পারেন। সবচেয়ে গুরুত্বপূর্ণ লক্ষণ ফলের উপর। ফলের ক্ষতি পৃষ্ঠের উপর একটি ফ্যাকাশে, ধুলো, ওভাল এলাকা (গুলি) হিসাবে শুরু হয়। এই পরে বৃহত্তর এবং হতাশ হত্তয়া এক জখমের সঙ্গে বা কোলশিলিংয়ের বেশ কিছু জায়গায় ফলের বড় অংশ ক্ষতিগ্রস্ত হয়।"/>
+    </LinearLayout>
+
+</ScrollView>

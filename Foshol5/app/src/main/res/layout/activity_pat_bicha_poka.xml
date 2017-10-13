@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="foshol.company.com.foshol.PatBichaPoka"
+    android:background="#489bb280"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="3">
+
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="আক্রমণের লক্ষণ:\nবিছা পোকা বাচ্চা অবসহায় দলবদ্ধভাবে থাকে এবং পাতার সবুজ অংশ খেয়ে পাতা ঝাঝড়া করে ফেলে।"
+                android:textSize="17sp"
+                android:layout_margin="10dp"
+                android:padding="10dp"
+                />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:layout_weight="0.02"
+                app:srcCompat="@drawable/patbichapoka" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="17sp"
+                android:layout_margin="10dp"
+                android:padding="10dp"
+                android:text="প্রতিকার:\nএ অবস্থায় পাতা সহ বিছা পোকাগুলো তুলে অল্প কেরোসিন মিশ্রিত পানিতে ডুবিয়ে অথবা পায়ে মাড়িয়ে অতি সহজে দমন করা যায়। আক্রমণ ব্যাপক হলে এবং বিছা পোকাগুলো হাতে তুলে মেরে ফেলা সম্ভব না হলে হেজিনন ৬০ইসি ১.৫মিলি লিটার পানি, ইমিডাকোলর ১০ডবিস্নউপি ১.৫গ্রাম প্রতি লিটার পানি, সেভিন ৮৫এসপি ০.৫মিলি প্রতিলিটার পানিতে মিশিয়ে স্প্রে করলে এই পোকা দমন করা যায়।"
+                />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+</RelativeLayout>

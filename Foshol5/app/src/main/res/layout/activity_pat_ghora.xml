@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="foshol.company.com.foshol.PatGhora"
+    android:background="#489bb280"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="3">
+
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="আক্রমণের লক্ষণ:\nঘোড়া পোকা গাছের কচি পাতা খেয়ে গাছের ক্ষতি করে। আক্রমণের প্রকোপ বাড়লে এরা গাছের ডগা পর্যন্ত খেয়ে ফেলে।"
+                android:textSize="17sp"
+                android:layout_margin="10dp"
+                android:padding="10dp"
+                />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:layout_weight="0.02"
+                app:srcCompat="@drawable/patghora" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="17sp"
+                android:layout_margin="10dp"
+                android:padding="10dp"
+                android:text="প্রতিকার:\nঘোড়া পোকার আক্রমণ দেখা দিলে ক্ষেতে বাঁশ বা গাছের ডাল পুতে পাখি বসার ব্যবস্থা করম্নন। পাখিরা পোকা খেয়ে পোকা দমনে সাহায্য করে। পোকার আক্রমণ অধিক হলে ক্ষেতে কীটনাশক ঔষধ যেমন হেজিনন ৬০ইসি ১.৫মিলি লিটার পানি, ইমিডাকোলর ১০ডবিস্নউপি ১.৫গ্রাম প্রতি লিটার পানি, সেভিন ৮৫এসপি ০.৫মিলি প্রতিলিটার পানিতে মিশিয়ে স্প্রে করলে এই পোকা দমন করা যায়।"
+                />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+
+</RelativeLayout>

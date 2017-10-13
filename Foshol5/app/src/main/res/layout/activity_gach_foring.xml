@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="foshol.company.com.foshol.GachForing"
+    android:orientation="vertical"
+    android:background="#489bb280"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="3">
+
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="আক্রমণের লক্ষণ:\nবাদামী গাছ ফড়িং-এর বাচ্চা ও পূর্ণবয়ষ্ক উভয় পোকা দলবদ্ধভাবে ধান গাছের গোড়ার দিকে অবস্থান করে গাছ থেকে রস খায়। আর এ কারণে গাছ দ্রুত শুকিয়ে যায়। বাদামী গাছ ফড়িং -এর তীব্র আক্রমণে গাছ প্রথমে হলুদ ও পরে শুকিয়ে যায়, ফলে দূর থেকে পুড়ে যাওয়ার মত বা বাজ পড়ার মত দেখায়। এ ধরনের ক্ষতিকে ‘হপার বার্ণ’ বলে।"
+                android:textSize="17sp"
+                android:layout_margin="10dp"
+                android:padding="10dp"
+                />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:layout_weight="0.02"
+                app:srcCompat="@drawable/gachforing" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="17sp"
+                android:layout_margin="10dp"
+                android:padding="10dp"
+                android:text="দমনে করণীয়:\n১. এলাকার সকল চাষিকে দলবদ্ধভাবে পোকা দমনের ব্যবস্থা গ্রহণে উদ্বুদ্ধ করতে হবে;\n২. এ কাজে আইপিএম/আইসিএম ক্লাবসহ স্থানীয় প্রতিষ্ঠানসমূহকে সম্পৃক্ত করার ব্যবস্থা গ্রহণ করতে হবে;\n৩. প্রতি ব্লকে দলীয় আলোচনার মাধ্যমে সচেতনা সৃষ্টি এবং বাদামী গাছ ফড়িং দমনের কলাকৌশল কৃষকদের মাঝে প্রচারের ব্যবস্থা করতে হবে;\n৪. বীজতলায় এ পোকার আক্রমণ দেখা দিতে পারে, সে জন্য নিয়মিত বীজতলা পরিদর্শন, আলোর ফাঁদ পেতে পোকার উপস্থিতি নির্ণয় করতে হবে;\n৫. জমির আইল পরিস্কার রাখতে হবে;\n৬. পানি নিষ্কাশন ব্যবস্থা রাখতে হবে। আক্রান্ত জমির পানি সরিয়ে দিয়ে ৭ থেকে ৮ দিন জমি শুকনো রাখতে হবে;\n৭. আক্রান্ত জমিতে ২ থেকে ৩ হাত দূরে দূরে ‘বিলিকেটে’ জমিতে সূর্যের আলো ও বাতাস প্রবেশের ব্যবস্থা করতে হবে;\n৮. শুধুমাত্র ইউরিয়া ব্যবহার না করে সুষম মাত্রায় ইউরিয়া, টিএসপি, এমওপি ব্যবহার করতে হবে। ইউরিয়া কম ব্যবহার করতে হবে (ধাপে ধাপে ব্যবহার করতে হবে);\n৯. বালাই সহনশীল জাতের (ব্রিধান ৩১, ব্রিধান ৩৫, বিনা ধান ৬) চাষ করতে হবে;\n১০. জমিতে হাঁস ছেড়ে পোকা খাওয়ার ব্যবস্থা করতে হবে;\n১১. স্বল্প জীবনকালীন ফসলের চাষ করতে হবে এবং আক্রান্ত জমিতে ইউরিয়া সার প্রয়োগ আপাতত বন্ধ রাখতে হবে;\n১২. চারা ঘন করে না লাগিয়ে সারি থেকে সারি ২৫ থেকে ৩০ এবং চারা থেকে চারা ২৩ থেকে ২৫ সে.মি. দূরত্বে রোপণ করতে হবে;\n১৩. সন্ধ্যাবেলা আক্রান্ত জমি থেকে একটু দূরে আলোর ফাঁদ জ্বালিয়ে পোকা দমনের ব্যবস্থা করতে হবে;\n১৪. প্রতি গোছায় ২ থেকে ৪টি গর্ভবতী বাদামী গাছ ফড়িং বা ৮ থেকে ১০টি নিম্ফ দেখা গেলে অনুমোদিত কীটনাশক সঠিক মাত্রায় ধান গাছের গোড়ার দিকে ভালভাবে সেপ্র করতে হবে; কিন্তু গাছে যদি একটি করে মাকড়সা থাকে তবে কীটনাশক ব্যবহার করা ঠিক হবে না।" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

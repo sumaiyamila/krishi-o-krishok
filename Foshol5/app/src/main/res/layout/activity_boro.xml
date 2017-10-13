@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="foshol.company.com.foshol.Boro"
+    android:background="#489bb280"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="3">
+
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="আক্রমণের লক্ষণ:\nকীড়া ধানের পাতা লম্বালম্বিভাবে মুড়িয়ে ফেলে এবং পাতার সবুজ অংশ খায়।"
+                android:textSize="17sp"
+                android:layout_margin="10dp"
+                android:padding="10dp"
+                />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:layout_weight="0.02"
+                app:srcCompat="@drawable/patamorano" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="17sp"
+                android:layout_margin="10dp"
+                android:padding="10dp"
+                android:text="প্রতিকার:\n১. আলোক ফাঁদ ব্যবহার করা; ২. আক্রান্ত পাতা সংগ্রহ করে নষ্ট করা; ৩. শতকরা ১৫ ভাগ পাতার ক্ষতি হলে অনুমোদিত যেকোনো একটি বালাইনাশক ব্যবহার করা। হেক্টরপ্রতি ম্যালাথিয়ন ১.১২লি., সুমিথিয়ন ১.০লি., ডাইমেথোয়েট (টাফগর) ১.১২লি., ডায়াজিনন ১.৭০লি., কারবারিল (সেভিন) ১.৭০ কেজি হারে সপ্রে করা।"
+                />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

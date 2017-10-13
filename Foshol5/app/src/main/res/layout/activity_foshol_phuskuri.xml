@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="foshol.company.com.foshol.FosholPhuskuri"
+    android:background="#489bb280"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="3">
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="লক্ষণ:\nপ্রাথমিক পর্যায়ে ব্লাস্ট আক্রান্ত গম ক্ষেতের কোনো কোনো স্থানে শীষ সাদা হয়ে যায় এবং অনুকূল আবহাওয়ায় তা অতি দ্রুত সারা ক্ষেতে ছড়িয়ে পড়ে। গমের কিছু শীষের উপরিভাগ শুকিয়ে সাদাটে বর্ণ ধারণ করে যা সহজেই নিম্নভাগের সবুজ ও সুস্থ অংশ থেকে আলাদা করা যায়; আবার কোনো কোনো শীষের প্রায় সম্পূর্ণ অংশই শুকিয়ে সাদাটে হয়ে যায়। এটি গমের ব্লাস্ট রোগের আদর্শ (Typical) লক্ষণ। প্রধানত গমের শীষে ছত্রাকের আক্রমণ হয়। শীষের আক্রান্ত স্থানে কালো দাগ পড়ে এবং আক্রান্ত স্থানের উপরের অংশ সাদা হয়ে যায়। তবে শীষের গোড়ায় আক্রমণ হলে পুরো শীষ শুকিয়ে সাদা হয়ে যায়। আক্রান্ত শীষের দানা অপুষ্ট হয় ও কুঁচকে যায় এবং দানা ধূসর বর্ণের হয়ে যায়। পাতায়ও ব্লাস্ট রোগের আক্রমণ হতে পারে এবং এ ক্ষেত্রে পাতায় চোখের মতো ধূসর বর্ণের ছোট ছোট নেক্রোটিক দাগ পড়ে।"
+                android:textSize="17sp"
+                android:layout_margin="10dp"
+                android:padding="10dp"
+                />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:layout_weight="0.02"
+                app:srcCompat="@drawable/wheatblast" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="17sp"
+                android:layout_margin="10dp"
+                android:padding="10dp"
+                android:text="ব্যবস্থাপনা:\nব্লাস্টমুক্ত গমের ক্ষেত থেকে বীজ সংগ্রহ করতে হবে;
+অপেক্ষাকৃত কম সংবেদনশীল জাত বারি গম ২৮, বারি গম ৩০ এর  চাষ করতে হবে;
+উপযুক্ত সময়ে (অগ্রহায়ণের ০১ থেকে ১৫) বীজ বপন করতে হবে যাতে শীষ বের হওয়ার সময় বৃষ্টি ও উচ্চ তাপমাত্রা পরিহার করা যায়;
+বপনের আগে প্রতি কেজি বীজের সাথে ৩ গ্রাম হারে প্রোভ্যাক্স ২০০ ডব্লিউপি অথবা ৩ মিলি হারে ভিটাফ্লো ২০০ এফএফ ছত্রাকনাশক মিশিয়ে বীজ শোধন করতে হবে। বীজ শোধন করলে গমের অন্যান্য বীজবাহিত রোগও দমন হবে এবং ফলন বৃদ্ধি;
+গমের ক্ষেত ও আইল আগাছামুক্ত করতে হবে।
+প্রতিষেধক ব্যবস্থা হিসেবে শীষ বের হওয়ার সময় একবার এবং এর ১২ থেকে ১৫ দিন পর আরেকবার ছত্রাকনাশক স্প্রে করতে হবে। প্রতি ৫ শতাংশ জমিতে ৬ গ্রাম নাটিভো ৭৫ ডব্লিউ জি-নভিটা ৭৫ ডব্লিউ জি ১০ লিটার পানিতে মিশিয়ে ভালোভাবে স্প্রে করতে হবে। স্প্রে করলে গমের পাতা ঝলসানো রোগ, বীজের কালো দাগ রোগ এবং মরিচা রোগ দমন হবে। ছত্রাকনাশক ব্যবহারের সময় হাতে গ্লোভস এবং মুখে মাস্ক ব্যবহার করতে হবে যাতে রাসায়নিক দ্রব্যাদি শরীরের সংস্পর্শে না আসে এবং শ্বাস-প্রশ্বাসের মাধ্যমে শরীরে প্রবেশ করতে না পারে।"
+                />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

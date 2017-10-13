@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="foshol.company.com.foshol.LichuFata">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="          লিচুর ফল ফেটে যাওয়া রোগ"
+            android:textAlignment="center"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:textColor="#9ACD32"/>
+
+        <ImageButton
+            android:id="@+id/btn2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/lichufolfata" />
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="লিচুর ফল ফাটা বিভিন্ন রকম হতে পারে। সামান্য ফাটা, কেবলমাত্র খোসা ফাটা, লম্বালিম্বভাবে গোটা ফল ফাটা ইত্যাদি। ফল ফেটে গেলে তার অপক্ক শাঁস অনাবৃত হয়ে পড়ে এবং সরাসরি বাতাসের সংস্পর্শে আসে ফলে শাঁস দ্রুত শুকায়ে যায়। পরবর্তীতে তা রোগ ও পোকার আক্রমণের জন্য উন্মুক্ত হয়ে যায়। লিচুর ফাটা লম্বালম্বি বা আড়াআড়ি দু রকমই হতে পারে।" />
+
+        <TextView
+            android:id="@+id/textView35"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="প্রতিকার" />
+
+        <TextView
+            android:id="@+id/textView36"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="১। যে সব জাত ফাটল প্রতিরোধক/ সংবেদনশীল সে গুলোর চাষাবাদ করতে হবে।
+২। বিভিন্ন প্রকার হরমোন সেপ্র করে ফলের পরিপক্কতা দীর্ঘায়িত করা এবং খোসার সমপ্রসারণ ক্ষমতা বৃদ্ধির মাধ্যমে
+
+ফলের ফাটা দমনের ক্ষেত্রে ভাল ফলাফল পাওয়া গেছে। ন্যাপথালিন এসিটিক এসিড ((NAA) ২৫ পিপিএম হারে এর সাথে জিবারেলিক এসিড ৫০ পিপিএম হারে ১০ দিন পর পর সেপ্র করে ফাটল রোধ করা সম্ভব।
+
+৩। ফল বৃদ্ধির সময় জিংক সালফেট ( প্রতি লিটারে ৫ গ্রাম), রোবাঙ/ বরিক এসিড ( প্রতি লিটারে ৫ গ্রাম) একত্রে বা আলাদা আলাদা ভাবে সেপ্র করলে ফল ঝরে পড়া ও ফাটা উভয় সমস্যা উল্লেখযোগ্য হারে কমে যায়।
+
+৪। ফল বৃদ্ধির সময় গাছে নিয়মিত ও পরিমিত পরিমাণ সেচ প্রদান করলে মাটির আর্দ্রতা / রস বৃদ্ধি এবং বাতাসের তাপমাত্রা কমে যাবে। ফলে লিচুর ফাটল কমে যাবে।" />
+    </LinearLayout>
+
+</ScrollView>

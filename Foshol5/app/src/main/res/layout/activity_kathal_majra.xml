@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="foshol.company.com.foshol.KathalMajra">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="          কাঠালের মাজরা পোকা"
+            android:textAlignment="center"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:textColor="#9ACD32"/>
+
+        <ImageButton
+            android:id="@+id/btn2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/kathalmajra" />
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="মাজরা পোকার আক্রমনে কাঠালের ফলন বাঁধাগ্রস্ত হয়।
+
+এর প্রতিকার হল:
+১. সাইপারমেথিন বা কারটা গ্রম্নপ যেমন সানটাব ৩০ গ্রাম/১০ লিটার পানিতে মিশিয়ে পুরো গাছে স্প্রে করতে হবে।
+২. গাছ পরিষ্কার-পরিচ্ছন্ন করে রাখতে হবে।
+৩. সুষম মাত্রায় বছরে দুইবার সার প্রয়োগ করতে হবে (বর্ষার আগে ও পরে)।
+৪. লেগে থাকা ২ কাঠালিকে কাঠি দিয়ে ফাঁক করে দিতে হবে।" />
+    </LinearLayout>
+
+</ScrollView>

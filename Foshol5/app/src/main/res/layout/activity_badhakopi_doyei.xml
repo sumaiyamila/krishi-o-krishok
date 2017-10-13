@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="foshol.company.com.foshol.BadhakopiDoyei">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="          বাধাকপির ডোয়েই রোগ"
+            android:textAlignment="center"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:textColor="#9ACD32"/>
+
+        <ImageButton
+            android:id="@+id/btn2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/badhakopipata" />
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="ডোয়েই মৃলয়টি গাছপালা একটি রোগ, একটি ছত্রাক মত (Oomycete) জীব দ্বারা সৃষ্ট। এটা বায়ুবাহিত spores দ্বারা উদ্ভিদ থেকে উদ্ভিদ থেকে ছড়িয়ে হয়। এটি ভিজা আবহাওয়ার একটি রোগ যা সংক্রমণ দীর্ঘস্থায়ী পাতা wetness দ্বারা অনুকূলিত হয়। প্রধান উপসর্গ উপরের পাতা পৃষ্ঠতলের disclored এলাকায়; নীচের সাদা, ধূসর বা রক্তবর্ণ ঢালাইফাঙ্গাস মত (Oomycete) জীব দ্বারা সংঘটিতপ্রধানত গ্রীষ্ম এবং শরতের সময়, বিশেষ করে ভিজা অবস্থায়" />
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="foshol.company.com.foshol.MangoHopper">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="আমের শোষক পোকা"
+            android:textColor="#9ACD32"
+            android:textAlignment="center"
+            android:textSize="25dp"
+            android:textStyle="bold"/>
+
+        <ImageButton
+            android:id="@+id/btn1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/mangohopper" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="15dp"
+            android:text="আম গাছে কচি পাতা বা মুকুল বের হওয়ার সাথে সাথে এগুলি সক্রিয় হয়ে উঠে। এ পোকা নিম্ফ ও পূর্ণবয়স্ক উভয় অবস্থায় আমগাছের সকল কচি অংশ থেকে রস চুষে খেয়ে বেঁচে থাকে। নিম্ফ গুলি আমের মুকুল থেকে রস চুষে খায় এতে মুকুল শুকিয়ে বিবর্ণ হয়ে ঝরে পড়ে। একটি হপার পোকা দৈনিক তার দেহের ওজনের ২০ গুণ পরিমান রস শোষন করে খায় এবং প্রয়োজনের অতিরিক্ত আঠালো রস মলদ্বার দিয়ে বের করে দেয় যা মধুরস বা হানিডিউ নামে পরিচিত। এ মধুরস মুকুলের ফুল ও গাছের পাতায় জমা হতে থাকে যার উপর এক প্রকার ছত্রাক জন্মায়। এই পোকার আক্রমণে আমের উৎপাদন শতকরা ২০-১০০ ভাগ পর্যন্ত হ্রাস পেতে পারে। তাছাড়া হপার আক্রান্ত গাছের বৃদ্ধি কমে যায়।"
+            />
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="         " />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="15dp"
+            android:text=" প্রতিকার:
+             ক) আম বাগান সব সময় পরিষ্কার পরিচ্ছন্ন রাখতে হবে বিশেষ করে গাছের ডাল পালা যদি খুব ঘন থাকে তবে প্রয়োজনীয় পরিমান ছাঁটাই করতে হবে যাতে গাছের মধ্যে প্রচুর আলো বাতাস প্রবেশ করতে পারে।   "   ></TextView>
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="15dp"
+            android:text="খ) অমের মুকুল যখন ৮/১০ সেন্টিমিটার লম্বা হয় তখন একবার এবং আম মটর দানার মত হলে আর একবার প্রতি লিটার পানিতে ১ মিলি হারে সাইপারমেথ্রিন জাতীয় কীটনাশক (যেমন রাইজ) মিশিয়ে সম্পূর্ণ গাছ ভিজিয়ে স্প্রে করতে হবে " />
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="15dp"
+            android:text="গ) আমের হপার পোকার কারণে সুটিমোল্ড রোগের আক্রমণ অনেক সময় ঘটে তাই সুটিমোল্ড দমনের জন্য প্রতি লিটার পানিতে ২ গ্রাম হারে সালফার জাতীয় ঔষধ (যেমন ঔষধ) ব্যবহার্য কীটনাশকের সাথে মিশিয়ে স্প্রে করতে হবে।" />
+    </LinearLayout>
+
+
+
+</ScrollView>

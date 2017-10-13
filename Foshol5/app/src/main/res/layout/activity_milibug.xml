@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="foshol.company.com.foshol.Milibug">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView22"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:textColor="#9ACD32"
+            android:textAlignment="center"
+            android:text="আমের মিলিবাগ" />
+
+        <ImageButton
+            android:id="@+id/btn4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/milibug" />
+
+        <TextView
+            android:id="@+id/textView23"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:text="লক্ষনঃ সাদা সাদা অসংখ্য পোকা একসাথে থাকে কখনও কখনও বিচ্ছিন্ন ভাবেও থাকে।এরা রস চুষে খায় এবং এক ধরনের আঠালো মিষ্টি রস নিঃস্বরণ করে যা খাবার জন্য পিপিলিকার আগমন ঘটে। এর আক্রমণ বেশি হলে শুটি মোল্ড ছত্রাকের আক্রমণ ঘটে এবং আক্রান্ত অংশ এমনকি পুরো গাছ মরে যায় ।" />
+
+        <TextView
+            android:id="@+id/textView24"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="প্রতিকার : " />
+
+        <TextView
+            android:id="@+id/textView25"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:text=" ১. প্রাথমিক অবস্থায় হাত দিয়ে পিশে পোকা মেরে ফেলা" />
+
+        <TextView
+            android:id="@+id/textView26"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:text=" ২. ব্রাশ দিয়ে ঘসে পোকা মাটিতে ফেলে মেরে ফেলা ।" />
+
+        <TextView
+            android:id="@+id/textView27"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:text="৩. ইমিডাক্লোরোপ্রিড গ্রুপের কীটনাশক যেমন : ইমিটাফ বা ২ মি.লি. / লি. হারে পানিতে মিশিয়ে স্প্রে করা।" />
+    </LinearLayout>
+
+</ScrollView>

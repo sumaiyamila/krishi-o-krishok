@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item android:id="@+id/bazar_name"
+        android:title="নিকটবর্তি বাজারের নাম"/>
+
+    <item android:id="@+id/bazar_map"
+        android:title="ম্যাপে নিকটবর্তি বাজার"/>
+
+
+
+
+</menu>

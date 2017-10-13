@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="foshol.company.com.foshol.PeyaraMachii">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="          পেয়ারার মাছি পোকা"
+            android:textAlignment="center"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:textColor="#9ACD32"/>
+
+        <ImageButton
+            android:id="@+id/btn2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/peyaramachii" />
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="স্ত্রী পোকা অভিপজিটর দ্বারা ফল পাকার দিন পূর্বে পেয়ারার ভিতরে ডিম পাড়ে।
+ডিম ফুটে কীড়া বা ম্যাগট বের হয় এবং পেয়ারার ভিতর বড় হতে থাকে।
+পাকা ফল কাটলে ভিতরে কীড়া থাকে, খাওয়ার অনুপযুক্ত হয়ে পড়ে।
+ফল বিকৃত হয়, পচে যায়, স্থান্তর ও গুদাম জাত করা যায় না।"/>
+
+        <TextView
+            android:id="@+id/textView37"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="প্রতিকার
+১।বাগান ও গাছ পরিস্কার পরিছন্ন রাখা,বৎসরে দুইবার সুষম মাত্রায় সার প্রয়োগ করা।
+২।বর্ষা মৌসুম শেষে গাছের অপ্রয়োজনীয়, মৃত, অর্ধমৃত ডালপালা ছাঁটাই করে আলো
+৩।বাতাস চলাচলের ব্যবস্থা করা।আক্রান্ত অংশ পোকাসহ সংগ্রহ করে পুতে ফেলা।
+৪।বিষটোপ ফাঁদ ও সেক্স ফেরোমন ফাঁদ ব্যবহার করে পুরুষ মথ নষ্ট করা।
+৫।আক্রান্ত ফল সংগ্রহ করে পুতে ফেলা,পাকা ফল দ্রুত সংগ্রহ করা।
+৬।ফল আহোরনের পর বাগানের মাটি গভীর চাষ দিয়ে পুত্তলি নষ্ট করা।
+৭।বিষটোপফাঁদ = পাকা ফল+কার্বারিল৮৫ ডব্লিউপি = (১০০+১) গ্রাম মিশে তৈরি করা।
+৮।প্রোফেনোফস ৪২৫ইসি (সবিক্রন)=২ মিঃলিঃ/লিটার পানি মিশে স্প্রে করা।
+" />
+    </LinearLayout>
+
+</ScrollView>

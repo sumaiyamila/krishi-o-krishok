@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="foshol.company.com.foshol.AaluDhosha">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="          আলুর আগাম ধ্বসা রোগ"
+            android:textAlignment="center"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:textColor="#9ACD32"/>
+
+        <ImageButton
+            android:id="@+id/btn2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/aluagamdhosha" />
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="আগাম ধ্বসা Alternaria solani দ্বারা সৃষ্ট, বাংলাদেশে আলুর আরেকটি মারাত্মক রোগ। প্রাথমিক অবস্থায় পাতায় গাঢ় বাদামি থেকে কালো দাগ দেখা যায়। দাগসমূহ সাধারণত বিভিন্ন আকৃতির, অনেকক্ষেত্রে কয়েকটি দাগ একত্র হয়ে বড় দাগের সৃষ্টি করার ফলে পাতা ঝলসে যায়। কালো দাগ (black scurf) রোগ সাধারণত খুব মারাত্মক না হলেও মাঝে মাঝে উল্লেখযোগ্য ক্ষতি সাধন করে। এ রোগ Rhizoctonia solanij এর আক্রমণে হয়ে থাকে এবং তাতে আলুর উপরে অত্যন্ত সুস্পষ্ট বাদামি থেকে কালো দাগ দেখা যায়।"/>
+
+        <TextView
+            android:id="@+id/textView39"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="প্রতিকার" />
+
+        <TextView
+            android:id="@+id/textView38"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="১। সুষম সার প্রয়োগ এবং সময়মত সেচ প্রয়োগ নিশ্চিত করতে হবে ।
+২। রোগ দেখা দেওয়ার সাথে সাথে প্রতি লিটার পানিতে ২ গ্রাম রোভরাল মিশিয়ে ৭-১০ দিন পর পর  প্রয়োগ করতে হবে । ডাইথেন এম-৪৫ ০.২% হারে প্রয়োগ করা যায় ।
+৩। আগাম জাতের আলু চাষ করতে হবে ।" />
+    </LinearLayout>
+
+</ScrollView>
