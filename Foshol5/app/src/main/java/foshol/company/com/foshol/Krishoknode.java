@@ -5,7 +5,7 @@ package foshol.company.com.foshol;
  */
 
 public class Krishoknode {
-    String naam,jela,shohor,mail,pass,stat;
+    String naam,jela,shohor,mail,pass,stat,bajar;
     Krishoknode(){
 
     }
