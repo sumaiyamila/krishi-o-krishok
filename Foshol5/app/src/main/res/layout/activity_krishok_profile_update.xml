@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     tools:context="foshol.company.com.foshol.KrishokProfileUpdate"
     android:orientation="vertical"
+    android:layout_margin="2dp"        
     >
 
     <TextView
