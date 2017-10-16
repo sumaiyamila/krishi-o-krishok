@@ -11,7 +11,7 @@ import android.widget.ImageButton;
 import com.google.firebase.auth.FirebaseAuth;
 
 public class Aalu extends AppCompatActivity implements View.OnClickListener{
-    private ImageButton btn1,btn2,btn3;
+    private ImageButton btn1,btn2,btn3,btn4;
 
 
     @Override
